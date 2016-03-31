@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%!important;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: inline-block;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+  font-size: 20px;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+div.menu{
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
+  z-index: 1000;
+}
+body{
+  background-color: white;
+}
+#name{
+    padding-left: 30px;
+    padding-right: 50px;
+    display: inline;
+    color: black;
+    font-family: 'Orbitron';
+
+}
+div.header{
+
+      font-size: 4em;
+      font-weight: 700;
+      text-shadow: 0 0 10px #FFF;
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      border-top: 2px solid black;
+      font-family: 'Orbitron';
+
+}
+.img-circle {
+  padding-top: 50px;
+    display:block;
+    margin:auto;
+    border-radius: 50%;
+    height: auto;
+   width: auto;
+   max-width: 300px;
+   max-height: 300px;
+
+}
+div.blob{
+  width: 75%;
+  margin-top: 10px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0px 20px 60px;
+  z-index: 50;
+  border: 2px solid black;
+  background-color: #e1e1e1;
+
+
+}
+#home{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+      background-image: url(blue.jpg);
+}
+#contact{
+
+  padding-bottom: 100px;
+  min-height: 200px;
+  position: relative;
+  background-image: url(blue.jpg);
+}
+#about{
+  position: relative;
+  min-height: 900px;
+  background-image: url(orange.jpg);
+background-size: 125% 100%;
+}
+#underme{
+  background-color: white;
+  margin:auto;
+  border: 2px solid black;
+  margin-top: -50px;
+  height: 100px;
+  width: 700px;
+
+}
+p.indent{
+  padding-left: .5em;
+}
+.reached{
+  text-align: center;
+}
+a.anchor{
+  display: block;
+  position: relative;
+  top: -200px;
+  visibility: hidden;
+}
